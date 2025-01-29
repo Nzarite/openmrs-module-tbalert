@@ -13,6 +13,7 @@
 	<description>Omod submodule for TBAlertCore</description>
 
 	<dependencies>
+<!--OpenMRS Dependencies-->
         <dependency>
             <groupId>org.openmrs.module</groupId>
             <artifactId>tbalertcore-api</artifactId>
@@ -34,6 +35,17 @@
 			<groupId>org.openmrs.module</groupId>
 			<artifactId>uiframework-api</artifactId>
 			<scope>provided</scope>
+		</dependency>
+<!--	CFL Dependencies-->
+		<dependency>
+			<groupId>org.openmrs.module</groupId>
+			<artifactId>cflcore-api</artifactId>
+			<version>1.13.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.openmrs.module</groupId>
+			<artifactId>cflcore-omod</artifactId>
+			<version>1.13.1</version>
 		</dependency>
 	</dependencies>
 
